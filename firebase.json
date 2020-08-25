@@ -1,7 +1,13 @@
 {
   "hosting": {
     "site": "sequelizeguard",
-    "public": "public",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "public": "public/build/sequelize-guard",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "docs/**",
+      "website/**"
+    ]
   }
 }

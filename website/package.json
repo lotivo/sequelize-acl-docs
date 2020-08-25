@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "start": "docusaurus-start",
+    "build": "docusaurus-build",
+    "postbuild": "yarn cpy './build/sequelize-guard' './../public' --parents && rimraf './build' ",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.14.6",
+    "cpy-cli": "^3.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
+}
